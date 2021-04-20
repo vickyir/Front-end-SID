@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="front-end/libraries/bootstrap-4.6.0-dist/css/bootstrap.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- SCSS -->
+    <link rel="stylesheet" href="front-end/css/main.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+        <nav class="row  navbar navbar-expand-lg  navbar-light sticky-top py-3">
+            <div class="navbar-nav ml-auto">
+                <a href="index.html" class="navbar-brand" >
+                    <img src="front-end/img/Lambang_Kabupaten_Majene.png" alt="Logo">
+                </a>
+            </div>
+            <ul class="navbar-nav mr-auto">
+                <li class="text-white">
+                       <span>| &nbsp; SISTEM INFORMASI DESA TINAMBUNG</span>
+                </li>
+        </nav>
+
+    <!-- Main Content-->
+    <main>
+        <div class="heading mt-5 text-center">
+            <h1>SELAMAT DATANG DI LAYANAN SURAT ONLINE<br> DESA TINAMBUNG </h1>
+        </div>
+        <div class="container mt-5 content-surat">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-12 col-lg-4"> 
+                    <div class="left-side text-center">
+                        <img src="front-end/img/Lambang_Kabupaten_Majene.png" alt="">
+                        <h2>PELAYANAN SURAT ONLINE DESA TINAMBUNG</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-8">
+                    <div class="right-side ml-2">
+                        <div class="logo text-center mb-4">
+                            <img src="front-end/img/Lambang_Kabupaten_Majene.png" alt="">
+                        </div>
+                        <form action="#" method="POST">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
+                                <div class="input-box">
+                                    <input type="text" name="nama" placeholder="Nama Lengkap">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
+                                <div class="input-box">
+                                    <input type="text" name="nik" placeholder="Nomor Induk Kependudukan">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
+                                <div class="input-box">
+                                    <input type="email" name="email" placeholder=" Email">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
+                                <div class="input-box">
+                                  <select name="surat" id="surat">
+                                      <option selected></option>
+                                      <option value="Surat A">Surat A</option>
+                                      <option value="Surat B">Surat B</option>
+                                      <option value="Surat C">Surat C</option>
+                                      <option value="Surat D">Surat D</option>
+                                      <option value="Surat E">Surat E</option>
+                                  </select>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="input-box">
+                                    <textarea name="pesan" id="" rows="10" placeholder="Pesan"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-surat px-4 py-2" type="submit">Kirim Permohonan</button>
+                        <a href="index.html" class="btn btn-kembali ml-4 px-4 py-2">Kembali</a>
+                        </form>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3 px-4">
+                            <h5>SID - DESA TINAMBUNG</h5>
+                            <ul class="list-unstyled">
+                                <li class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ducimus et asperiores delectus quia? Odit repudiandae quae repellat ab beatae sunt, inventore quis vel accusamus fugiat maxime, blanditiis impedit laudantium.</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3 px-4">
+                            <h5>BERITA TERBARU</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Berita 1</a></li>
+                                <li><a href="#">Berita 2</a></li>
+                                <li><a href="#">Berita 3</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3 px-4">
+                            <h5>MENU/LINKS</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Beranda</a></li>
+                                <li><a href="#">Aduan</a></li>
+                                <li><a href="#">Permohonan Surat</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3 px-4">
+                            <h5>GET CONNECTED</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Sulawei Barat</a></li>
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="#">0821 - 2222 - 8888</a></li>
+                                <li><a href="#">support@tinambung.id</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center border-top mb-3">
+                    <div class="col-auto text-gray-500 font-weight-light pt-4">2021 Copyright Vicky Ir • All right reserved • Made in Sulawesi Barat</div>
+                </div>
+            </div>
+    </footer>
+
+    <!-- Jquery and Javascript -->
+    <script src="front-end/libraries/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="front-end/js/main.js"></script>
+    <script src="front-end/libraries/bootstrap-4.6.0-dist/js/bootstrap.js"></script>
+    
+</body>
+</html>
